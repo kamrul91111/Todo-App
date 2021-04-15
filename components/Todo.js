@@ -4,7 +4,7 @@ import { View, Text, Button, StyleSheet } from 'react-native'
 const Todo = (props) => {
     return (
         <View>
-            <Text style={styles.item}>{props.name}</Text>
+            <Text style={styles.item}>{props.item}</Text>
         </View>
     )
 }
